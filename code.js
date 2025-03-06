@@ -196,17 +196,17 @@ document.addEventListener("DOMContentLoaded", function() {
             price_tag_T_F  = true
             y = true
         }
-        if(n >= 500 && !cash_register_T_F){
+        if(n >= 10000 && !cash_register_T_F){
             cards_txt_cash_register.textContent = 'У вас ЕСТЬ касса'
             cash_register_T_F = true
             y = true
         }
-        if(n >= 1000 && !fridge){
+        if(n >= 20000 && !fridge){
             cards_txt_fridge.textContent = 'У вас ЕСТЬ холодильник'
             fridge = true
             y = true
         }
-        if(n >= 5000 && !battery){
+        if(n >= 48000 && !battery){
             cards_txt_battery.textContent = 'У вас ЕСТЬ батарейка'
             battery = true
             y = true

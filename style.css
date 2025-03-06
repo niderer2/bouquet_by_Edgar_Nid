@@ -1,0 +1,899 @@
+body{
+    background-color: rgb(255, 169, 169);;
+}
+.hands{
+    position: absolute;
+    top: 296px;
+    right: 230px;
+}
+
+.in_hands{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.in_hands_txt{
+    position: relative;
+}
+.colors{
+    position: absolute;
+    right: 70px;
+    top: 150px;
+}
+
+.color_1{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    background: rgb(199, 58, 58);
+    border-radius: 50%;
+}
+
+.color_2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgb(142, 51, 165);
+    border-radius: 50%;
+}
+
+.color_3{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgb(243, 241, 100);
+    border-radius: 50%;
+}
+
+.color_4{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgb(191, 232, 235);
+    border-radius: 50%;
+}
+
+.color_5{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgb(255, 67, 139);
+    border-radius: 50%;
+}
+
+
+.txt_info{
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    background: rgb(255, 231, 231);
+
+}
+.txt1{
+    position: absolute;
+    left: calc(50% - 150px);
+    font-size:2rem;
+}
+
+.txt2{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-size:1.2rem;
+    margin-top: 100px;
+}
+
+.txt3{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-size:1.2rem;
+}
+
+.txt4{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-size:1.2rem;
+}
+
+.txt5{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-size:1.2rem;
+}
+
+.txt6{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-size:0.7rem;
+}
+
+.bouquet{
+    position: absolute;
+    left: 40%;
+    top: calc(30% + 100px);
+}
+
+.treygolnik1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border: 60px solid transparent; 
+    border-bottom: 60px solid rgb(212, 212, 212);
+}
+
+.treygolnik2{
+    position: absolute;
+    left: -60px;
+    top: -90px;
+    width: 0px;
+    height: 0px;
+    border: 120px solid transparent; 
+    border-top: 180px solid rgb(212, 212, 212);
+}
+
+
+.botton_info{
+    z-index: 1100;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.botton_info_body {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(41, 41, 41);
+    border-radius: 50%;
+}
+
+.botton_info_i_1{
+    position: absolute;
+    width: 7px;
+    height: 20px;
+    background: rgb(41, 41, 41);
+    right: 31px;
+    top: 22px;
+}
+
+.botton_info_i_2{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: rgb(41, 41, 41);
+    right: 31px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.flowers{
+    position: absolute;
+    top: 80%;
+    left: calc(50% - 100px);
+}
+
+.flower_1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(70px * -2);
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.flower_2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(70px * -1);
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.flower_3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.result{
+    position: absolute;
+    left: calc(70px * 2 + 70px);
+    font-size:3rem;
+}
+
+.flower_4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(70px * 1);
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.flower_5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(70px * 2);
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+}
+
+.fl_1{
+    position: absolute;
+    left: -30px;
+    top: -90px;
+}
+
+.fl_1_0{
+    position: absolute;
+    z-index: 900;
+    width: 30px;
+    height: 30px;
+    background: rgb(252, 145, 23);
+    border-radius: 50%;
+}
+
+.fl_1_1{
+    position: absolute;
+    z-index: 800;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+
+.fl_1_2{
+    position: absolute;
+    z-index: 800;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.fl_1_3{
+    position: absolute;
+    z-index: 800;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.fl_1_4{
+    position: absolute;
+    z-index: 800;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -40px;
+    top: -20px;
+}
+
+.fl_1_5{
+    position: absolute;
+    z-index: 800;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -10px;
+    top: -40px;
+}
+
+.fl_2{
+    position: absolute;
+    left: 30px;
+    top: -140px;
+}
+
+.fl_2_0{
+    position: absolute;
+    z-index: 800;
+    width: 30px;
+    height: 30px;
+    background: rgb(252, 145, 23);
+    border-radius: 50%;
+}
+
+.fl_2_1{
+    position: absolute;
+    z-index: 700;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+
+.fl_2_2{
+    position: absolute;
+    z-index: 700;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.fl_2_3{
+    position: absolute;
+    z-index: 700;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.fl_2_4{
+    position: absolute;
+    z-index: 700;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -40px;
+    top: -20px;
+}
+
+.fl_2_5{
+    position: absolute;
+    z-index: 700;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -10px;
+    top: -40px;
+}
+
+.fl_3{
+    position: absolute;
+    left: 50px;
+    top: -70px;
+}
+
+.fl_3_0{
+    position: absolute;
+    z-index: 700;
+    width: 30px;
+    height: 30px;
+    background: rgb(252, 145, 23);
+    border-radius: 50%;
+}
+
+.fl_3_1{
+    position: absolute;
+    z-index: 600;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+
+.fl_3_2{
+    position: absolute;
+    z-index: 600;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.fl_3_3{
+    position: absolute;
+    z-index: 600;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.fl_3_4{
+    position: absolute;
+    z-index: 600;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -40px;
+    top: -20px;
+}
+
+.fl_3_5{
+    position: absolute;
+    z-index: 600;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -10px;
+    top: -40px;
+}
+
+.fl_4{
+    position: absolute;
+    left: 90px;
+    top: -120px;
+}
+
+.fl_4_0{
+    position: absolute;
+    z-index: 600;
+    width: 30px;
+    height: 30px;
+    background: rgb(252, 145, 23);
+    border-radius: 50%;
+}
+
+.fl_4_1{
+    position: absolute;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+
+.fl_4_2{
+    position: absolute;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.fl_4_3{
+    position: absolute;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.fl_4_4{
+    position: absolute;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -40px;
+    top: -20px;
+}
+
+.fl_4_5{
+    position: absolute;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -10px;
+    top: -40px;
+}
+
+.fl_5{
+    position: absolute;
+    left: 140px;
+    top: -90px;
+}
+
+.fl_5_0{
+    position: absolute;
+    z-index: calc(500 - 1);
+    width: 30px;
+    height: 30px;
+    background: rgb(252, 145, 23);
+    border-radius: 50%;
+}
+
+.fl_5_1{
+    position: absolute;
+    z-index: 400;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -30px;
+    top: 10px;
+}
+
+.fl_5_2{
+    position: absolute;
+    z-index: 400;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.fl_5_3{
+    position: absolute;
+    z-index: 400;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.fl_5_4{
+    position: absolute;
+    z-index: 400;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -40px;
+    top: -20px;
+}
+
+.fl_5_5{
+    position: absolute;
+    z-index: 400;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 254, 254);
+    border-radius: 50%;
+    left: -10px;
+    top: -40px;
+}
+
+.cards_txt_cash_register{
+    position: relative;
+    margin-top: 70px;
+}
+
+.price_tag{
+    display: none;
+}
+
+.price_tag_pen{
+    position: relative;
+    left: 20px;
+}
+
+.price_tag_pen{
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 10px;
+    height: 25px;
+    top: 7px;
+    background: rgb(163, 163, 163)
+}
+
+.price_tag_body{
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 50px;
+    top: 15px;
+    left: 35px;
+    background: rgb(172, 152, 89)
+}
+
+.price_tag_txt{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    transform: rotate(45deg);
+}
+@media (max-width: 700px), (max-height: 540px) {
+    .treygolnik2{
+        position: absolute;
+        left: calc(40% - 20px);
+        top: 60%;
+        width: 0px;
+        height: 0px;
+        border: 40px solid transparent; 
+        border-top: 60px solid rgb(212, 212, 212);
+    }
+    .treygolnik1{
+        position: absolute;
+        left: 40%;
+        top: calc(60% + 30px);
+        width: 0px;
+        height: 0px;
+        border: 20px solid transparent; 
+        border-bottom: 20px solid rgb(212, 212, 212);
+    }
+
+    .fl_1_0{
+        display: none;
+    }
+    
+    .fl_1_1{
+        display: none;
+    }
+    
+    .fl_1_2{
+        display: none;
+    }
+    
+    .fl_1_3{
+        display: none;
+    }
+    
+    .fl_1_4{
+        display: none;
+    }
+
+    .fl_1_5{
+        left: 10px;
+        top: 80px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .fl_2_0{
+        display: none;
+    }
+    
+    .fl_2_1{
+        display: none;
+    }
+    
+    .fl_2_2{
+        display: none;
+    }
+    
+    .fl_2_3{
+        display: none;
+    }
+    
+    .fl_2_4{
+        display: none;
+    }
+
+    .fl_2_5{
+        left: -35px;
+        top: 125px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .fl_3_0{
+        display: none;
+    }
+    
+    .fl_3_1{
+        display: none;
+    }
+    
+    .fl_3_2{
+        display: none;
+    }
+    
+    .fl_3_3{
+        display: none;
+    }
+    
+    .fl_3_4{
+        display: none;
+    }
+
+    .fl_3_5{
+        left: -40px;
+        top: 60px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .fl_4_0{
+        display: none;
+    }
+    
+    .fl_4_1{
+        display: none;
+    }
+    
+    .fl_4_2{
+        display: none;
+    }
+    
+    .fl_4_3{
+        display: none;
+    }
+    
+    .fl_4_4{
+        display: none;
+    }
+
+    .fl_4_5{
+        left: -65px;
+        top: 105px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .fl_5_0{
+        display: none;
+    }
+    
+    .fl_5_1{
+        display: none;
+    }
+    
+    .fl_5_2{
+        display: none;
+    }
+    
+    .fl_5_3{
+        display: none;
+    }
+    
+    .fl_5_4{
+        display: none;
+    }
+
+    .fl_5_5{
+        left: -100px;
+        top: 80px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .flowers{
+        left: calc(40% - 10px);
+    }
+
+    .flower_1{
+        width: 20px;
+        height: 20px;
+        left: calc(20px + 40px * -2);
+    }
+
+    .flower_2{
+        width: 20px;
+        height: 20px;
+        left: calc(20px + 40px * -1);
+    }
+
+    .flower_3{
+        width: 20px;
+        height: 20px;
+        left: calc(20px + 40px * 0);
+    }
+
+    .flower_4{
+        width: 20px;
+        height: 20px;
+        left: calc(20px + 40px * 1);
+    }
+    .flower_5{
+        width: 20px;
+        height: 20px;
+        left: calc(20px + 40px * 2);
+    }
+
+    .result{
+        left: calc(70px * 2);
+        font-size:1rem;
+    }
+
+    .colors{
+        top: 200px;
+        right: 0px;
+    }
+    .color_1{
+        position: relative;
+        z-index: 900;
+        width: 20px;
+        height: 20px;
+    }
+
+    .color_2{
+        width: 20px;
+        height: 20px;
+    }
+
+    .color_3{
+        width: 20px;
+        height: 20px;
+    }
+
+    .color_4{
+        width: 20px;
+        height: 20px;
+    }
+
+    .color_5{
+        width: 20px;
+        height: 20px;
+    }
+
+    .hands{
+        top: 200px;
+        right: 0px;
+        left: 40%;
+    }
+    .in_hands{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 410px) {
+    .txt1{
+        position: relative;
+        left: 0px;
+        font-size:2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .txt_info{
+        top: 10px;
+        left: 10px;
+        width: calc(100% - 20px);
+        height: calc(200% - 100px);
+    
+    }
+}
+
+@media (max-height: 540px) {
+    .hands{
+        top: 100px;
+    }
+}
+
+@media (max-height: 360px) {
+    .flowers{
+        top: 300px;
+    }
+}

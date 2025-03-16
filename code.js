@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let txt2 = document.querySelector('.txt2')
     let txt3 = document.querySelector('.txt3')
     let txt4 = document.querySelector('.txt4')
-    let txt5 = document.querySelector('.txt4')
+    let txt5 = document.querySelector('.txt5')
     let do_i_need_to_show_text = true
     botton_info.addEventListener("click", function() {
         if (do_i_need_to_show_text){
